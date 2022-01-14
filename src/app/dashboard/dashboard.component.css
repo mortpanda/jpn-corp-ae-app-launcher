@@ -1,0 +1,217 @@
+.strCity{
+  color:#00297A!important;
+  font-size: 30px!important;
+  font-weight: 500!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+  /* vertical-align: middle!important; */
+}
+
+.strLocalDate{
+  color:#41414B!important;
+  font-size: 20px!important;
+  font-weight: 600!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+}
+
+.strLocalTime{
+  color:#00297A!important;
+  font-size: 28px!important;
+  font-weight: 600!important;
+  text-align: center!important;
+  margin-top: 15px!important;
+}
+
+.mainBannerBox{
+  background-color: transparent!important;
+  /* width: auto;
+  height: auto;   */
+}
+.mainBanner{
+  width: 60%;  
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-top: 20px!important;
+}
+
+.mat-tab-header-pagination {
+  color: #FFFFFF!important;
+  border-style: solid;
+  border-width: 1px!important;
+
+}
+
+.itemEUS{
+background-color: #A0DCC3!important;
+}
+
+.mat-tab-header-pagination-chevron {
+  color: #FFFFFF!important;
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+.mat-tab-header-pagination-chevron {
+  border-color: #FFFFFF!important;
+  border-top-color: #FFFFFF!important;
+  border-right-color: #FFFFFF!important;
+  border-bottom-color: #FFFFFF!important;
+  border-left-color: #FFFFFF!important;
+  color: #FFFFFF!important;
+}
+
+.itemAdmin{
+  background-color: #CFB1C1!important;
+}
+
+.urlAdmin
+{
+color: #00297A!important;
+}
+
+.mat-tab-group {
+  text-align: center!important;
+}
+
+.itemDiv{
+  margin-top: 5px!important;
+  text-align: center!important;
+}
+
+
+.websiteTitle{
+  color: #41414b !important;
+  margin-bottom: 10px!important;
+  margin-top: 10px!important; 
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif!important;
+  font-weight: 600!important;
+  font-size:16px!important;
+}
+
+.btnAppLink{
+  text-align: center!important;
+  margin-top: 10px!important; 
+  width: 100px!important;
+  height: 40px!important;
+  /* vertical-align: bottom!important; */
+  font-size: 12px!important;
+}
+
+.containeerURL{
+  margin-top:15px!important;
+}
+.tabGroup {
+  position: relative!important;
+  z-index: 3!important;
+  /* display: inline-flex!important; */
+  margin-top: 120px!important;
+  max-height: 900px!important;
+  height: auto!important;
+  /* border-radius: 5px!important; */
+}
+
+.mat-tab-header {
+  background-color: #00297A!important;
+  padding: 0px;
+  color: #FFFFFF!important;
+  min-width: 50px !important;
+  height: 30px!important;
+  text-align: center;
+  align-items: center;
+  /* border-radius: 5px!important; */
+}
+
+.mat-tab-label {
+  min-width: 100px!important;
+  padding: 15px;
+  background-color: #00297A!important;
+  color: white!important;
+  opacity: 1!important;
+  text-align: center;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+.websiteURL{
+  font-size: 12px!important;
+}
+
+.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+  color: white!important;
+}
+
+.mat-tab-label.mat-tab-label-active {
+  min-width: 100px!important;
+  padding: 15px;
+  background-color: white!important;
+  color: #00297A!important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+ 
+}
+
+
+
+
+.containerTab{
+  /* width: 90%!important; */
+  color: #FFFFFF!important;
+  text-align: center!important;
+  display: block!important;
+}
+
+.userText {
+  color: #ffffff !important;
+  text-align: center !important;
+  white-space: pre-line;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.userContainer{
+  display: block!important;
+  white-space: pre-line;font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.item {
+  width: 300px;
+  height: 120px;
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 5px!important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.fxcontainer {
+  width: 90%;
+  height: 80vh!important;
+  color: #00297a;
+   display: block!important;
+  overflow:auto;
+  margin-top: 30px!important;
+  text-align: center!important;
+}
+
+.userNameItem{
+  height: auto!important;
+  background-color: transparent!important;
+  color: #FFFFFF!important;
+ align-items: center!important;
+ font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+ padding-top: 15px!important;
+ padding-bottom: 15px!important;
+}
+
+/* Hide the scrollbar byu still allow scroll : Chrome, Safari and Opera */
+.fxcontainer::-webkit-scrollbar {
+  display: none!important;
+}
+/* Hide the scrollbar byu still allow scroll :  IE, Edge and Firefox */
+.fxcontainer{
+  -ms-overflow-style: none!important;  /* IE and Edge */
+  scrollbar-width: none!important;  /* Firefox */
+}
