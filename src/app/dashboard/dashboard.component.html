@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <div class="page-header section-dark" style="background-image: url('assets/img/okta_blue_bg.png')">
+  <div class="page-header section-dark" style="background-image: url('assets/img/lilac_back.png')">
     <!-- <h1><img src="assets/img/okta_japan_white_medium.png" alt="" class="responsive"></h1> -->
     <div class="fxcontainer" fxLayout="row wrap" fxLayoutAlign="center">
       <!-- <div class="item userNameItem" fxFlex="0 0 90%">ようこそ <h1>{{this.OktaGetTokenService.strUserName}}</h1> -->
@@ -8,7 +8,7 @@
 
       <div class="containerTab" fxLayoutAlign="center center">
         <mat-tab-group>
-          <mat-tab label="Websites">
+          <mat-tab label="Web Apps">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
               <div class="item" *ngFor="let itemWebites of OtherWebsite">
                 <div class="itemDiv">
@@ -21,85 +21,7 @@
             </div>
           </mat-tab>
 
-          <mat-tab label="Admin Dashboard">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemAdmin" *ngFor="let itemAdminWebites of AdminSites">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemAdminWebites.name }}</a><br />
-                  <a class="websiteURL urlAdmin">{{ itemAdminWebites.url }}</a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemAdminWebites.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>        
-          
-          <mat-tab label="EU Dashboard">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemEUS" *ngFor="let itemUserSite of UserSites">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemUserSite.name }}</a><br />
-                  <a class="websiteURL urlAdmin">{{ itemUserSite.url }}</a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemUserSite.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>
-
-          <mat-tab label="Kent Lab Angular Projects">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemDiv" *ngFor="let itemKlabSite of KlabSites">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemKlabSite.name }}</a><br />
-                  <a class="websiteURL urlAdmin">{{ itemKlabSite.url }}</a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemKlabSite.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>
-
-          <mat-tab label="CSM Lab Angular Projects">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemAdmin" *ngFor="let itemProjectSite of ProjectSites">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemProjectSite.name }}</a><br />
-                  <a class="websiteURL urlAdmin">{{ itemProjectSite.url }}</a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemProjectSite.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>
-
-          <mat-tab label="Dev Info Sites">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemAdmin" *ngFor="let itemDevSite of DevInfo">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemDevSite.name }}</a><br />
-                  <a class="websiteURL urlAdmin">{{ itemDevSite.url }}</a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemDevSite.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>
-
-          <mat-tab label="Okta Websites">
-            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
-              <div class="item itemEUS" *ngFor="let itemOktaSite of oktaWebsite">
-                <div class="itemDiv">
-                  <a class="websiteTitle">{{ itemOktaSite.name }}</a><br />
-                  <a class="websiteURL urlAdmin">
-                    <!-- {{ itemOktaSite.url }} -->
-                  </a><br />
-                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
-                    href="{{ itemOktaSite.url }}" target="_blank">Go</a>
-                </div>
-              </div>
-            </div>
-          </mat-tab>
+         
 
           <mat-tab label="World Clock">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
