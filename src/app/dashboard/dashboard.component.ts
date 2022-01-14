@@ -11,7 +11,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { GetTimeService } from 'app/shared/world-clock/get-time.service';
 
 import {Websites, OtherWebsite} from 'app/websites/websites';
-
+import {OktaWebsites, oktaWebsite} from 'app/websites/okta-websites';
 
 
 @Component({
@@ -23,11 +23,8 @@ import {Websites, OtherWebsite} from 'app/websites/websites';
 export class DashboardComponent implements OnInit {
   
   OtherWebsite = OtherWebsite;
+  oktaWebsite = oktaWebsite;
   
-  
-
-
-
   strThisSession;
   strUserSession: Boolean;
   public authService = new OktaAuth(this.OktaSDKAuthService.config);

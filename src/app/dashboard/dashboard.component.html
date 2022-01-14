@@ -21,7 +21,21 @@
             </div>
           </mat-tab>
 
-         
+
+          <mat-tab label="Okta Websites">
+            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
+              <div class="item" *ngFor="let itemoktaWebsite of oktaWebsite">
+                <div class="itemDiv">
+                  <a class="websiteTitle">{{ itemoktaWebsite.name }}</a><br />
+                  <a class="websiteURL">{{ itemoktaWebsite.url }}</a><br />
+                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
+                    href="{{ itemoktaWebsite.url }}" target="_blank">Go</a>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
+
+
 
           <mat-tab label="World Clock">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
@@ -36,31 +50,31 @@
                 <div class="strLocalDate">{{ GetTimeService.strNYDate }}</div>
                 <div class="strLocalTime">{{ GetTimeService.strNYTime }}</div>
               </div>
-          
+
               <div class="item">
                 <div class="strCity">London</div>
                 <div class="strLocalDate">{{ GetTimeService.strLondonDate }}</div>
                 <div class="strLocalTime">{{ GetTimeService.strLondonTime }}</div>
               </div>
-          
+
               <div class="item">
                 <div class="strCity">Singapore</div>
                 <div class="strLocalDate">{{ GetTimeService.strSingaporeDate }}</div>
                 <div class="strLocalTime">{{ GetTimeService.strSingaporeTime }}</div>
               </div>
-          
+
               <div class="item">
                 <div class="strCity">Tokyo</div>
                 <div class="strLocalDate">{{ GetTimeService.strTokyoDate }}</div>
                 <div class="strLocalTime">{{ GetTimeService.strTokyoTime }}</div>
               </div>
-          
+
               <div class="item">
                 <div class="strCity">Sydney</div>
                 <div class="strLocalDate">{{ GetTimeService.strSydneyDate }}</div>
                 <div class="strLocalTime">{{ GetTimeService.strSydneyTime }}</div>
               </div>
-          
+
               <div class="item">
                 <div class="strCity">UTC</div>
                 <div class="strLocalDate">{{ GetTimeService.strUTCDate }}</div>
@@ -71,7 +85,7 @@
 
         </mat-tab-group>
       </div>
-      <div  fxLayoutAlign="center">
+      <div fxLayoutAlign="center">
         <img src="assets/img/okta_japan_white_medium.png" alt="" class="mainBanner">
       </div>
       <!-- <div class="item">First</div>

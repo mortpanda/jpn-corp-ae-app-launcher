@@ -6,6 +6,10 @@ export interface OktaWebsites {
 
 export const oktaWebsite = [
     {
+        name: 'Okta.com',
+        url:'https://okta.com',
+    },
+    {
         name: 'Okta Release Notes',
         url:'https://help.okta.com/en/prod/Content/Topics/ReleaseNotes/okta-relnotes.htm',
     },
