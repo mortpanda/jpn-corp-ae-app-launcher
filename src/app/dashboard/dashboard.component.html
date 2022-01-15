@@ -21,6 +21,27 @@
             </div>
           </mat-tab>
 
+          <mat-tab label="Portal Apps">
+            <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
+              
+              <div class="item">
+                <div class="itemDiv">
+                  <a class="websiteTitle">このページのアプリについて</a><br />
+                  <a class="websiteURL"></a><br />
+                  <a class="portalAppDesc">THE PORTALアプリ上で連携されているアプリへ個別にアクセス出来ます。</a>
+                </div>
+              </div>
+              
+              <div class="item" *ngFor="let itemApp of itemPortalApp">
+                <div class="itemDiv">
+                  <a class="websiteTitle">{{ itemApp.name }}</a><br />
+                  <a class="websiteURL">{{ itemApp.url }}</a><br />
+                  <a class="btn btn-reg-danger btn-round" class="btn btn-danger btn-round btnAppLink"
+                    href="{{ itemApp.url }}" target="_blank">Go</a>
+                </div>
+              </div>
+            </div>
+          </mat-tab>
 
           <mat-tab label="Okta Websites">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">
@@ -34,8 +55,6 @@
               </div>
             </div>
           </mat-tab>
-
-
 
           <mat-tab label="World Clock">
             <div class="containeerURL" fxLayout="row wrap" fxLayoutAlign="center">

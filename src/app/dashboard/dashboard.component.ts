@@ -12,6 +12,7 @@ import { GetTimeService } from 'app/shared/world-clock/get-time.service';
 
 import {Websites, OtherWebsite} from 'app/websites/websites';
 import {OktaWebsites, oktaWebsite} from 'app/websites/okta-websites';
+import {PortalApps, itemPortalApp} from 'app/websites/portal-apps';
 
 
 @Component({
@@ -24,6 +25,7 @@ export class DashboardComponent implements OnInit {
   
   OtherWebsite = OtherWebsite;
   oktaWebsite = oktaWebsite;
+  itemPortalApp = itemPortalApp;
   
   strThisSession;
   strUserSession: Boolean;
