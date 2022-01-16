@@ -36,6 +36,7 @@ export class DashboardComponent implements OnInit {
     public OktaSDKAuthService: OktaSDKAuthService,
     public _snackBar: MatSnackBar,
     public GetTimeService: GetTimeService,  
+    public OktaConfigService: OktaConfigService,
   ) { }
 
   // NotAuthed() {
@@ -69,7 +70,8 @@ export class DashboardComponent implements OnInit {
         //alert(this.oktaSDKAuth.config.redirectUri)
         // alert('ログインしてください')
         //await this.NotAuthed();
-        await window.location.replace('/');
+        //await window.location.replace('/');
+        await this.OktaConfigService.strPostLogoutURL;
       case true:
         this.OktaGetTokenService.GetAccessToken();
         await this.GetTimeService.GetWorldTime();
