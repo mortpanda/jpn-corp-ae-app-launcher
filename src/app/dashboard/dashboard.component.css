@@ -162,9 +162,6 @@ color: #00297A!important;
  
 }
 
-
-
-
 .containerTab{
   /* width: 90%!important; */
   color: #FFFFFF!important;
@@ -188,7 +185,7 @@ color: #00297A!important;
 
 .item {
   width: 300px;
-  height: 120px;
+  height: 150px;
   background-color: #ffffff;
   margin: 5px;
   border-radius: 5px!important;
